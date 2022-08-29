@@ -1,4 +1,4 @@
-# Project Name - PLconnect
+## PLconnect Dating Web App
 
 ## Project Description
 
