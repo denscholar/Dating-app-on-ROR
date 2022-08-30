@@ -20,3 +20,7 @@
 input.btn.btn-primary.btn-lg {
     width: 100%;
 }
+
+input.btn.btn-primary {
+    width: 100%;
+}
