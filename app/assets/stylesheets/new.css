@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+    height: 100vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 3rem;
+    margin: 0 auto;
+
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+input.btn.btn-primary.btn-lg {
+    width: 100%;
+}

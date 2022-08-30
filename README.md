@@ -22,3 +22,6 @@ As an HIV-positive person, dating can be challenging as you want to find love, b
 - CSS/ Shoelace
 
 ## Contributors/Authors
+
+
+  <%= bootstrap_devise_error_messages! %>
