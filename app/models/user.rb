@@ -6,10 +6,14 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable, :confirmable,
          :recoverable, :rememberable, :validatable, :trackable
 
-  
-         
-         
-  validates :short_bio, presence: true, length: {maximum: 500}
+  # validates :short_bio, presence: true, length: {maximum: 500}
   validates :email, presence: true, uniqueness: { case_sensitive: false }, length: {minimum: 5, maximum: 50}
-       
+  
+  # def increment_like
+  #   if :likes == 0
+
+  #   end
+  #   return 0 unless reviews.count.positive?
+  #   like = like + 1   
+  # end
 end
