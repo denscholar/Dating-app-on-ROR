@@ -1,0 +1,28 @@
+<%= render  "navbar" %>
+
+<div class="container d-flex my-3">
+  <% @users.each do |user| %>
+  <div class="col-lg-3 col-md-4 col-sm-6 px-2 py-2">
+    <div class="card">
+      <%= image_tag "#{user.image_url}", :alt => "bg-image", class: 'card-img-top'  %>
+      <div class="card-body">
+        <h5 class="card-title"><%= user.first_name %> <%= user.last_name %></h5>
+        <p class="card-text"><%= user.short_bio%></p>
+        <div class="icons d-flex justify-content-between">
+          <%= link_to user_path(@user) do %>
+          <%= fa_icon "heart", text: "#{user.like}", class: "fa-regular" %>
+          <% end %>
+
+          <%= link_to user_path(@user) do %>
+          <%= fa_icon "user", text: 'Profile' %>
+          <% end %>
+
+          <%= link_to user_path(@user) do %>
+          <%= fa_icon "envelope", text: 'Message' %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% end %>
+</div>
