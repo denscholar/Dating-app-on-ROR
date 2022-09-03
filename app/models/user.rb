@@ -1,4 +1,7 @@
 class User < ApplicationRecord
+  has_one_attached :image
+  has_many_attached :pictures
+
   has_many :messages
   has_many :likes
   # Include default devise modules. Others available are:
@@ -9,11 +12,5 @@ class User < ApplicationRecord
   # validates :short_bio, presence: true, length: {maximum: 500}
   validates :email, presence: true, uniqueness: { case_sensitive: false }, length: {minimum: 5, maximum: 50}
   
-  # def increment_like
-  #   if :likes == 0
 
-  #   end
-  #   return 0 unless reviews.count.positive?
-  #   like = like + 1   
-  # end
 end

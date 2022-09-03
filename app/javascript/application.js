@@ -4,5 +4,6 @@ import "controllers"
 import "@fortawesome/fontawesome-free"
 
 //= require turbolinks  
-//= require materialize-sprockets
+// = require materialize-sprockets
+//=require custom
 
