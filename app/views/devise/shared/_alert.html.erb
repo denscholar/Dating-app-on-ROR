@@ -1,2 +1,5 @@
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
+<% flash.each do |type, message| %>
+<div class="alert alert-dismissible fade show <%= type == 'notice' ? 'alert-success': 'alert-danger' %>" role="alert">
+  <%= message %>
+</div>
+<% end %>

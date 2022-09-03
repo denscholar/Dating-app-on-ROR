@@ -1,4 +1,4 @@
-<%= render  "navbar" %>
+<%= render  "shared/navbar" %>
 
 <div class="container d-flex my-3">
   <% @users.each do |user| %>
@@ -12,7 +12,7 @@
           <%= link_to user_path(@user) do %>
           <%= fa_icon "heart", text: "#{user.like}", class: "fa-regular" %>
           <% end %>
-
+          
           <%= link_to user_path(@user) do %>
           <%= fa_icon "user", text: 'Profile' %>
           <% end %>
