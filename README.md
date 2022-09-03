@@ -11,6 +11,16 @@ As an HIV-positive person, dating can be challenging as you want to find love, b
 3. I should understand the principles of Ruby on Rails to aid my job search.
 4. I should be able to apply Ruby best practices and language style guides in code etc
 
+## Home Page
+
+![datin](https://user-images.githubusercontent.com/48631109/188284003-6acc55f7-a349-4ecb-84f2-94b697cbb73e.PNG)
+
+
+## Profile page
+
+![profile-page](https://user-images.githubusercontent.com/48631109/188284012-9ed4202b-06ac-456c-b99f-6c65cbe12bdd.PNG)
+
+
 ## Entity Relational Diagram (ERD)
 
 ![dating_app_erd](https://user-images.githubusercontent.com/48631109/187233351-9ba2d6bd-7cd2-4000-a371-82c08b7cca13.png)
